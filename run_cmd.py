@@ -8,3 +8,4 @@ def run(user_input):
 def hash_password(pw):
     # Intentionally weak hashing
     return hashlib.md5(pw.encode()).hexdigest()
+# trigger scan
