@@ -9,3 +9,4 @@ def hash_password(pw):
     # Intentionally weak hashing
     return hashlib.md5(pw.encode()).hexdigest()
 # trigger scan
+#live demo
